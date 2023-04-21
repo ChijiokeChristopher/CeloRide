@@ -1,0 +1,107 @@
+[
+    {
+        "inputs": [],
+        "name": "getDriverLength",
+        "outputs": [
+            {
+                "internalType": "uint256",
+                "name": "",
+                "type": "uint256"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "uint256",
+                "name": "_index",
+                "type": "uint256"
+            }
+        ],
+        "name": "getEventById",
+        "outputs": [
+            {
+                "internalType": "address",
+                "name": "",
+                "type": "address"
+            },
+            {
+                "internalType": "string",
+                "name": "",
+                "type": "string"
+            },
+            {
+                "internalType": "string",
+                "name": "",
+                "type": "string"
+            },
+            {
+                "internalType": "string",
+                "name": "",
+                "type": "string"
+            },
+            {
+                "internalType": "string",
+                "name": "",
+                "type": "string"
+            },
+            {
+                "internalType": "string",
+                "name": "",
+                "type": "string"
+            },
+            {
+                "internalType": "string",
+                "name": "",
+                "type": "string"
+            }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+    },
+    {
+        "inputs": [
+            {
+                "internalType": "string",
+                "name": "_driverName",
+                "type": "string"
+            },
+            {
+                "internalType": "string",
+                "name": "_driverPhoneNumber",
+                "type": "string"
+            },
+            {
+                "internalType": "string",
+                "name": "_driverCurrentLocation",
+                "type": "string"
+            },
+            {
+                "internalType": "string",
+                "name": "_driverPicture",
+                "type": "string"
+            },
+            {
+                "internalType": "string",
+                "name": "_driverKYC",
+                "type": "string"
+            },
+            {
+                "internalType": "string",
+                "name": "_driverChargePerKM",
+                "type": "string"
+            },
+            {
+                "internalType": "string",
+                "name": "_driverAvaliability",
+                "type": "string"
+            }
+        ],
+        "name": "registerADriver",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+    }
+]
